@@ -21,14 +21,14 @@ function Home() {
             </h1>
         </div> 
     
-        <div className='flex items-center justify-evenly'>
+        <div className='flex flex-col items-center justify-evenly'>
             <Switch checked={isEnabled} onChange={setIsEnabled} 
             className={`${ isEnabled ? 'bg-green-500 shadow-green-700' : 'bg-red-500 shadow-red-700'} text-white py-4 rounded-lg shadow-md my-4 w-96`}>
             {isEnabled && 'Enabled!'}
             {!isEnabled && 'Not enabled!'}
             </Switch>
 
-            <div className=''>
+            <div className='mx-6'>
                 <p className='text-gray-700 text-lg'>This switch is from <a className='text-indigo-600' target="_blank" href="https://headlessui.dev/ ">Headless UI. </a>Unstyled, fully accessible UI components.</p>
             </div>
 
