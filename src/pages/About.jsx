@@ -30,7 +30,7 @@ function About() {
 
             </div> 
 
-            <div className="rounded-md shadow mt-6" >
+            <div className="rounded-md shadow mt-6 mb-8" >
                 <a  target="_blank"
                     href="https://github.com/sanjay-m1/react-vite-tailwind-headless-ui-react-router-template"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:ring transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
